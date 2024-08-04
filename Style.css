@@ -305,7 +305,7 @@ Content {
   }
   .Bioda {
     display: flex;
-    padding: 11%;
+    padding: 20%;
     justify-content: center;
   }
 
@@ -323,8 +323,8 @@ Content {
   }
 
   .TextBio {
-    margin-bottom: 0.5%;
-    padding-top: 10%;
+    margin-bottom: 10.5%;
+    padding-top: 15%;
     text-decoration: solid;
     color: rgb(13, 134, 255);
     text-decoration: aqua;
@@ -335,7 +335,7 @@ Content {
   }
   #Row {
     font-size: x-large;
-    padding-top: 2em;
+    padding-top: 3em;
   }
   #PBal {
     font-size: small;
