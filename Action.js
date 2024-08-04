@@ -14,3 +14,6 @@ function ShownC() {
   document.getElementById("conten1").style.display = "none";
   document.getElementById("Act").style.display = "none";
 }
+
+const audio = new Audio 
+audio.src = "Mahjong.Mp3"; 
