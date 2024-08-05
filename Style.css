@@ -204,8 +204,7 @@ Content {
 }
 
 #SizeMg {
-  width: 100x;
-  height: 90px;
+  width: 100px;
   border-radius: 15px;
 }
 
@@ -226,17 +225,16 @@ Content {
 .Html {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: rgb(95, 192, 192);
-  background-color: antiquewhite;
+  color: rgb(23, 189, 211);
   display: flex;
 
   align-items: center;
 }
 
 #Js {
+  margin: 20px;
   display: flex;
   align-items: center;
-  background-color: blue;
   color: rgb(95, 192, 192);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
