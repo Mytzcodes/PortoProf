@@ -183,27 +183,24 @@ Content {
 }
 
 .Backs {
-  color: rgb(243, 243, 243);
+  color: rgba(27, 130, 214, 0.87);
   backdrop-filter: blur(20px);
   background: transparent;
 }
 
 .Abouts {
-  padding: 1%;
+  padding-top: 2%;
   display: flex;
   justify-content: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.Lengague {
-  padding-top: 0.9%;
-}
 
 .lang {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 4%;
+  justify-content: center;
+  padding-top: 1.5%;
+  padding-bottom: 2%;
 }
 
 #SizeMg {
@@ -219,22 +216,42 @@ Content {
 
 .TxAbs {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-#Html,
-#Js {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  padding-left: 2.5em;
-  padding-bottom: 1em;
-  color: rgb(95, 192, 192);
+#Html {
+  margin: 20px;
 }
-#Css {
+
+.Html {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(95, 192, 192);
+  background-color: antiquewhite;
+  display: flex;
+
+  align-items: center;
+}
+
+#Js {
+  display: flex;
+  align-items: center;
+  background-color: blue;
   color: rgb(95, 192, 192);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  padding-left: 3em;
+  padding: 2%;
+}
+
+
+.Css {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  color: rgb(95, 192, 192);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 2%;
 }
 
 .Biodata {
