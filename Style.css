@@ -191,14 +191,13 @@ Content {
 .Abouts {
   padding-top: 2%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
 .lang {
+  justify-content: space-around;
   display: flex;
-  justify-content: center;
   padding-top: 1.5%;
   padding-bottom: 2%;
 }
@@ -241,15 +240,18 @@ Content {
   padding: 2%;
 }
 
-
 .Css {
-  margin-left: 20px;
+  margin-left: 15px;
   display: flex;
   align-items: center;
   color: rgb(95, 192, 192);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   padding: 2%;
+}
+
+#Css {
+  padding-left: 20px;
 }
 
 .Biodata {
@@ -291,6 +293,11 @@ Content {
   padding: 200px;
   transition: 2ms;
 }
+
+#Supprot {
+  display: none;
+}
+
 
 @media only screen and (min-width: 390px) and (max-width: 844px) {
   .bioabys {
@@ -361,18 +368,21 @@ Content {
     backdrop-filter: blur(10px);
     background: transparent;
   }
-  
+
   .Abouts {
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 8%;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
-  
+
   #SizeMg {
     width: 65px;
     height: 60px;
     border-radius: 15px;
   }
-  
+
   .Html {
     display: flex;
     align-items: center;
@@ -388,7 +398,7 @@ Content {
     align-items: center;
     justify-content: center;
   }
-  
+
   #Html,
   #Js,
   #Css {
@@ -396,4 +406,18 @@ Content {
       "Lucida Sans", Arial, sans-serif;
     color: rgb(95, 192, 192);
   }
+  .lang {
+    display: none;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+  }
+
+  #About {
+    display: none;
+  }
+  
+  #Supprot {
+    display: block;
+  }
+  
 }
