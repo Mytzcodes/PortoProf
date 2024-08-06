@@ -64,6 +64,9 @@ Content {
   background-color: black;
   padding: 10%;
   background-image: url(Bg1.png);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-repeat: no-repeat;
 }
 
 .Cnt {
@@ -97,6 +100,12 @@ Content {
   position: absolute;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
+#Ex {
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+}
+
 #Exit {
   border: none;
   margin-left: 75%;
@@ -105,11 +114,11 @@ Content {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: x-large;
-  color: rgb(240, 240, 240);
   padding-right: 1em;
   padding-left: 1em;
 }
-#Exit:hover {
+
+#Ex:hover {
   color: red;
   transition: 20ms;
 }
@@ -138,30 +147,40 @@ Content {
 
 #Nama,
 #Pass {
+  color: white;
   padding-bottom: 3px;
   height: 20px;
   width: 20em;
   border-radius: 5px;
   display: flex;
   justify-content: center;
-  color: yellow;
   background-color: transparent;
-  border: none;
-  text-decoration-line: underline;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid yellow;
 }
 
 #SendSubmit {
   font-family: Arial;
-  color: rgb(0, 0, 0);
-  border-color: black;
   height: 2.5em;
   width: 100%;
   border-radius: 20px;
+  border-color: black;
+  cursor: pointer;
 }
 
+#Subi {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#SendSubmit:hover {
+  transition: 5s;
+  background-color: aquamarine;
+}
 .ButtonClick {
   display: flex;
-
   margin-top: 2em;
 }
 
@@ -261,6 +280,7 @@ Content {
 }
 .Bioda {
   display: flex;
+  background-repeat: no-repeat;
   background-image: url(Background.jpg);
 }
 
@@ -294,19 +314,15 @@ Content {
   transition: 2ms;
 }
 
-#Supprot {
-  display: none;
-}
-
-
 @media only screen and (min-width: 390px) and (max-width: 844px) {
   .bioabys {
     display: none;
   }
 
   .Formulir {
-    padding-top: 4%;
-    margin: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 2%;
     border: 20px;
     background: green;
     background-color: transparent;
@@ -383,22 +399,6 @@ Content {
     border-radius: 15px;
   }
 
-  .Html {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Css {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Javas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   #Html,
   #Js,
   #Css {
@@ -407,17 +407,47 @@ Content {
     color: rgb(95, 192, 192);
   }
   .lang {
-    display: none;
+    display: list-item;
+    align-items: center;
     padding-top: 1.5%;
     padding-bottom: 2%;
   }
+  #Html {
+    margin-right: 30%;
+  }
 
-  #About {
-    display: none;
+  .Html {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: rgb(23, 189, 211);
   }
-  
-  #Supprot {
-    display: block;
+
+  #Js {
+    margin: 20px;
+    color: rgb(95, 192, 192);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    padding: 2%;
   }
-  
+
+  .Css {
+    margin-left: 11%;
+    color: rgb(95, 192, 192);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    padding: 2%;
+  }
+
+  #Css {
+    padding-left: 30px;
+  }
+  .lan {
+    justify-content: center;
+  }
+  .Html,
+  .Js,
+  .Picture {
+    display: flex;
+    justify-content: center;
+  }
 }
